@@ -24,7 +24,7 @@ while type(passwordLength) != int:
     except:
         passwordLength = input("\nEnter a valid Password Length: ")
 
-#
+#print the password length
 print("\nPassword Length >> " + passwordLength)
 
 
